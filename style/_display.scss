@@ -1,109 +1,109 @@
 .sd-d-none {
-  display: none !important;
+  display: none;
 }
 
 .sd-d-inline {
-  display: inline !important;
+  display: inline;
 }
 
 .sd-d-inline-block {
-  display: inline-block !important;
+  display: inline-block;
 }
 
 .sd-d-block {
-  display: block !important;
+  display: block;
 }
 
 .sd-d-grid {
-  display: grid !important;
+  display: grid;
 }
 
 .sd-d-flex-row {
-  display: -ms-flexbox !important;
-  display: flex !important;
-  flex-direction: row !important;
+  display: -ms-flexbox;
+  display: flex;
+  flex-direction: row;
 }
 
 .sd-d-flex-column {
-  display: -ms-flexbox !important;
-  display: flex !important;
-  flex-direction: column !important;
+  display: -ms-flexbox;
+  display: flex;
+  flex-direction: column;
 }
 
 .sd-d-inline-flex {
-  display: -ms-inline-flexbox !important;
-  display: inline-flex !important;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
 }
 
 @each $cat, $width in $media-widths {
   @media (min-width: $width) {
     .sd-d-#{$cat}-none {
-      display: none !important;
+      display: none;
     }
 
     .sd-d-#{$cat}-inline {
-      display: inline !important;
+      display: inline;
     }
 
     .sd-d-#{$cat}-inline-block {
-      display: inline-block !important;
+      display: inline-block;
     }
 
     .sd-d-#{$cat}-block {
-      display: block !important;
+      display: block;
     }
 
     .sd-d-#{$cat}-grid {
-      display: grid !important;
+      display: grid;
     }
 
     .sd-d-#{$cat}-flex {
-      display: -ms-flexbox !important;
-      display: flex !important;
+      display: -ms-flexbox;
+      display: flex;
     }
 
     .sd-d-#{$cat}-inline-flex {
-      display: -ms-inline-flexbox !important;
-      display: inline-flex !important;
+      display: -ms-inline-flexbox;
+      display: inline-flex;
     }
   }
 }
 
 // will align on major axis of flex
 .sd-align-major-start {
-  justify-content: flex-start !important;
+  justify-content: flex-start;
 }
 
 .sd-align-major-end {
-  justify-content: flex-end !important;
+  justify-content: flex-end;
 }
 
 .sd-align-major-center {
-  justify-content: center !important;
+  justify-content: center;
 }
 
 .sd-align-major-justify {
-  justify-content: space-between !important;
+  justify-content: space-between;
 }
 
 .sd-align-major-spaced {
-  justify-content: space-evenly !important;
+  justify-content: space-evenly;
 }
 
 // will align on minor axis of flex
 .sd-align-minor-start {
-  align-items: flex-start !important;
+  align-items: flex-start;
 }
 
 .sd-align-minor-end {
-  align-items: flex-end !important;
+  align-items: flex-end;
 }
 
 .sd-align-minor-center {
-  align-items: center !important;
+  align-items: center;
 }
 
 // default
 .sd-align-minor-stretch {
-  align-items: stretch !important;
+  align-items: stretch;
 }
